@@ -137,10 +137,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp TAB         &kp Q    &kp W      &kp E     &kp R      &kp T                  &kp Y  &kp U      &kp I      &kp O     &kp P          &kp BACKSPACE
-&kp LCTRL       &kp A    &kp S      &kp D     &kp F      &kp G                  &kp H  &lt 1 J    &lt 2 K    &kp L     &kp SEMICOLON  &kp ENTER
-&kp LEFT_SHIFT  &kp Z    &kp X      &kp C     &kp V      &kp B    &none  &none  &kp N  &kp M      &kp COMMA  &kp DOT   &kp FSLH       &kp SINGLE_QUOTE
-&kp LEFT_ALT    &kp ESC  &kp MINUS  &kp LGUI  &kp SPACE  &lm_cmd                &none  &kp LANG1  &kp LANG2  &kp DOWN  &kp GRAVE      &none
+&kp TAB         &kp Q    &kp W      &kp E                &kp R      &kp T                  &kp Y  &kp U    &kp I           &kp O     &kp P          &kp BACKSPACE
+&kp LCTRL       &kp A    &kp S      &kp D                &kp F      &kp G                  &kp H  &lt 1 J  &lt 2 K         &kp L     &kp SEMICOLON  &kp ENTER
+&kp LEFT_SHIFT  &kp Z    &kp X      &kp C                &kp V      &kp B    &none  &none  &kp N  &kp M    &kp COMMA       &kp DOT   &kp FSLH       &kp SINGLE_QUOTE
+&kp LEFT_ALT    &kp ESC  &kp MINUS  &mt LGUI LANGUAGE_2  &kp SPACE  &lm_cmd                &none  &none    &kp LANGUAGE_1  &kp DOWN  &kp GRAVE      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
